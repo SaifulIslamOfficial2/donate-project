@@ -1,0 +1,215 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+:root {
+    --body-font:  "Inter", sans-serif;
+    --title-font:  "Inter", sans-serif;
+    --title-font-weight: 700;
+    --transition: all ease .3s;
+}
+
+.container{
+  width: 1440px;
+}
+body {
+    font-family: "Poppins", system-ui;
+    color: var(--body-color);
+    font-size: 1.125rem;
+    line-height: 1.75rem;
+    overflow-x: hidden;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: var(--title-font);
+    font-weight: var(--title-font-weight);
+}
+
+.section-padding {
+    padding-top: 5.813rem;
+
+}
+* {
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+li{
+    list-style: none;
+
+}
+/* banner */
+.banner{
+    background-image: linear-gradient(0deg, #111111, #1111110d),url(../img/Banner.png);
+    height: 41.813rem;
+    text-align: center;
+    margin: 0 auto;
+    width: 100%;
+    position: relative;
+    z-index: 1;
+
+    &::after {
+        content: '';
+        height: 41.813rem;
+        background-color: #111111;
+        position: absolute;
+        z-index: -1;
+
+    }
+
+    .banner-item{
+        align-items: center;
+        h1{
+            /* width: 51.625rem; */
+            /* margin: 0 auto; */
+            line-height: 4.938rem;
+        }
+        p{
+            font-family: "Poppins", sans-serif;
+            width: 691px;
+            margin: 0 auto;
+            margin-top: 30px;
+        }
+        button{
+            padding: 12px 26px;
+            background-color: rgb(255, 89, 89);
+            border-radius: 5px;
+            margin-top: 30px;
+        }
+    }
+}
+
+/* donate prize */
+
+.donate-item{
+
+    p{
+        margin-top: 30px;
+        color: #707070;
+        width: 43.188rem;
+        margin: 0 auto;
+        font-family: "Poppins", system-ui;
+     
+    }
+}
+
+.amount{
+    align-items: center;
+    text-align: center;
+    margin-top: 30px;
+    ul{
+      
+        li{
+            margin: 0 20px;
+            color: rgb(112, 112, 112);
+            padding: 10px 20px;
+            margin: 10px;
+            border: 2px solid transparent;
+            
+
+            &:hover{
+                background-color: rgb(255, 238, 238);
+                color: rgb(255, 89, 89);
+                border: 2px solid rgb(255, 89, 89);
+            }
+        }
+
+    
+    }
+}
+/* TAKA */
+.taka-box{
+    margin-top: 3rem;
+    
+    .empty-box{
+        width: 765px;
+        background-color: #DADADA;
+        height: 1px;
+        margin: 0 auto;
+    }
+    button{
+        padding: 12px 26px;
+        background-color: rgb(255, 89, 89);
+        border-radius: 5px;
+        margin-top: 30px;
+    }
+}
+
+/* plan-box */
+.plan-box-1{
+ 
+    .container{
+        width: 1440px;
+    }
+
+   
+
+}
+
+.plan-box-2{
+    justify-content: space-around;
+}
+
+
+.plan-box-item{
+     width: 360px;   
+     height: 352px;
+     margin: 0 auto;
+     
+
+
+}
+.plan-box-item-1{
+    background: rgba(79, 157, 166, 0.10);
+    p{
+        color: rgb(112, 112, 112);
+        font-family: "Poppins", system-ui;
+    }
+}
+.plan-box-item-2{
+    background-color: rgba(255, 89, 89, 0.10);
+
+}
+.plan-box-item-3{
+    background-color: rgba(255, 244, 214, 1.00);
+}
+
+/* contribute start */
+
+.contribute-box{
+    justify-content: center;
+    
+    button{
+        padding: 12px 26px;
+        background-color: rgb(255, 89, 89);
+        border-radius: 5px;
+        margin-top: 30px;
+    }
+
+
+}
+.section-title{
+    margin: 0 auto;
+
+}
+.section-img{
+    margin: 0 auto;
+}
+
+.email-box{
+    background-color: rgba(218, 168, 28, 0.737);
+    margin-top: 0 auto;
+    
+}
+/* footer */
+.footer{
+    background-color: rgb(11, 13, 23);
+   
+}
